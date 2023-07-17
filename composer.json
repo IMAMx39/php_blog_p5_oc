@@ -1,0 +1,26 @@
+{
+    "name": "imam/php_blog",
+    "description": "Projet de blog en PHP pour la formation PHP/Symfony d'OpenClassrooms",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Imam",
+            "email": "imammaassou1@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-apcu": "*",
+        "ext-pdo": "*",
+        "symfony/mailer": "^6.3",
+        "ext-intl": "*",
+        "filp/whoops": "^2.15"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.3"
+    }
+}
