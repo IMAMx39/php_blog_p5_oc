@@ -11,9 +11,7 @@ use Core\Mailer\Mailer;
 use Core\Request;
 use Core\Response;
 use Symfony\Component\Mailer\Exception\TransportExceptionInterface;
-use Twig\Error\LoaderError;
-use Twig\Error\RuntimeError;
-use Twig\Error\SyntaxError;
+
 use Symfony\Component\Mailer\Transport;
 use Symfony\Component\Mime\Email;
 
